@@ -1,0 +1,15 @@
+{
+    "name": "React VS Code Remote Container",
+    "dockerFile": "Dockerfile",
+    "appPort": 3000,
+    "extensions": [
+        "CoenraadS.bracket-pair-colorizer",
+        "hazer.ReactCodeSnippets",
+        "Tyriar.sort-lines",
+        "msjsdiag.vscode-react-native"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh"
+    },
+    "postCreateCommand": "yarn"
+}
